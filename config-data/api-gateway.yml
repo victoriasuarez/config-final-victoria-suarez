@@ -31,8 +31,8 @@ spring:
             issuer-uri: https://accounts.google.com
         registration:
           google:
-            client-id: 552889245564-03s2mfimec7bnv9kceks8dr4ivti5fvg.apps.googleusercontent.com
-            client-secret: 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
+            client-id: 749141560336-lb7i5k1bohi8e0kp2qg10vj783hlhss0.apps.googleusercontent.com
+            client-secret: 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
             scope: openid
             redirect_uri: http://localhost:8080/login/oauth2/code/google
 
