@@ -9,6 +9,8 @@ spring:
       discovery:
         locator:
           enabled: true
+      default-filters:
+        - TokenRelay
       routes:
         - id: movie-service
           uri: lb://movie-service
