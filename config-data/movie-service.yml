@@ -23,6 +23,8 @@ spring:
     password: guest
     host: localhost
     port: 5672
+  zipkin:
+    baseUrl: http://localhost:9411/
     
 eureka:
   instance:
