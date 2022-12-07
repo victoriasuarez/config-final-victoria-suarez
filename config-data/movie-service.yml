@@ -10,8 +10,8 @@ spring:
   datasource:
       driverClassName: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://localhost:3306/moviedev
-      username: usrfinalmysql
-      password: pwdfinalmysql
+      username: root
+      password: 123456
 
   jpa:
     hibernate.ddl-auto: update
