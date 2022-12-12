@@ -27,19 +27,6 @@ spring:
           predicates:
             - Path=/series/**
 
-  security:
-    oauth2:
-      client:
-        provider:
-          google:
-            issuer-uri: https://accounts.google.com
-        registration:
-          google:
-            client-id: 749141560336-lb7i5k1bohi8e0kp2qg10vj783hlhss0.apps.googleusercontent.com
-            client-secret: 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
-            scope: openid
-            redirect_uri: http://localhost:8080/login/oauth2/code/google
-
 info:
   app:
     name: ${spring.application.name}
