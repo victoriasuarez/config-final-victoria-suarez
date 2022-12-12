@@ -2,8 +2,6 @@ server:
   port: ${PORT:${SERVER_PORT:8080}}
 
 spring:
-  main:
-    allow-bean-definition-overriding: true
   application:
     name: api-gateway
   cloud:
@@ -11,8 +9,6 @@ spring:
       discovery:
         locator:
           enabled: true
-      default-filters:
-        - TokenRelay
       routes:
         - id: movie-service
           uri: lb://movie-service
